@@ -46,5 +46,9 @@ public class Personnel implements Groupe {
         this.fonction = builder.fonction;
         this.telephones = builder.telephones;
     }
-    
+
+    @Override
+    public void afficheGroupe(){
+        System.out.println();
+    }
 }
