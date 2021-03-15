@@ -15,7 +15,7 @@ public class Personnel {
         private final LocalDate date;
 
         private String fonction = "";
-        private ArrayList<String> telephones = new ArrayList<String>;
+        private ArrayList<String> telephones = new ArrayList<String>();
 
         public Builder(String nom, String prenom, LocalDate date) {
             this.nom = nom;
