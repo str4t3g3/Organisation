@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Personnel {
+public class Personnel implements Groupe {
 
     private final String nom;
     private final String prenom;
